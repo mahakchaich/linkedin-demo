@@ -4,12 +4,12 @@ import  "firebase/compat/firestore";
 import "firebase/compat/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAgwjxq7U3vsqtkWIT9NhMKQ6x85wuApwo",
-    authDomain: "linkedin-clone-68604.firebaseapp.com",
-    projectId: "linkedin-clone-68604",
-    storageBucket: "linkedin-clone-68604.appspot.com",
-    messagingSenderId: "407489252519",
-    appId: "1:407489252519:web:4ad7bd4d5cc4cb22371f82"
+  apiKey: "AIzaSyAjlWPbHMzYziEN4YsRqNFHF0B0F-Bt7GY",
+  authDomain: "macinema-af780.firebaseapp.com",
+  projectId: "macinema-af780",
+  storageBucket: "macinema-af780.appspot.com",
+  messagingSenderId: "367627102233",
+  appId: "1:367627102233:web:46bb0e2640c76d712aa288"
   };
 
 const firebaseApp =firebase.initializeApp(firebaseConfig);

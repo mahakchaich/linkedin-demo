@@ -28,10 +28,10 @@ const Main = (props) => {
     };
   };
   return (
-    <>
-    {props.articles.length === 0  ? (
-      <p>There are no Articles</p>
-      ):(
+    // <>
+    // {props.articles.length === 0  ? (
+    //   <p>There are no Articles</p>
+    //   ):(
   <Container>
     <ShareBox>
     <div>
@@ -125,9 +125,9 @@ const Main = (props) => {
        </Content>
      <PostModal showModal={showModal} handleClick={handleClick}/>
   </Container>
-      )}
-  </>
-  );
+  //     )}
+  // </>
+   );
 };
 
 const Container = styled.div`
@@ -304,6 +304,8 @@ const SocialActions=styled.div`
     align-items: center;
     padding: 8px;
     color: #0a66c2;
+    border: none;
+    background-color: white;
 
     @media(min-width: 768px){
      span{
